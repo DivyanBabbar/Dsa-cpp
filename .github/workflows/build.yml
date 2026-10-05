@@ -1,0 +1,20 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  compile-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile and run every example (warnings are errors, sanitizers on)
+        run: |
+          set -e
+          for file in 0*/*.cpp; do
+            echo "== $file"
+            g++ -std=c++17 -Wall -Wextra -Werror -fsanitize=address,undefined -g "$file" -o /tmp/prog
+            /tmp/prog > /dev/null
+          done
