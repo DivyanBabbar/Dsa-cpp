@@ -11,13 +11,13 @@ file on its own.
 | Folder | Files |
 |---|---|
 | `01_arrays` | static array operations, dynamic array (own vector), binary search, prefix sum + two pointers, bubble/selection/insertion sort |
-| `02_linked_lists` | singly, doubly, circular singly, circular doubly, classic problems (middle, cycle, merge, remove n-th from end) |
+| `02_linked_lists` | singly, doubly, circular singly, circular doubly, classic problems (middle, cycle, merge, remove n-th from end), LeetCode 2 add two numbers |
 | `03_stacks` | array stack, linked-list stack, balanced parentheses, infix to postfix + evaluation, next greater element |
 | `04_queues` | linear array queue, circular queue, linked-list queue, deque, queue using two stacks |
 | `05_trees` | binary tree basics, iterative traversals, binary tree problems, BST, BST problems, AVL tree |
-| `06_heaps` | min-heap, max-heap, heap sort, STL priority_queue (k-th largest, merge k sorted lists) |
-| `07_hashing` | hash table with chaining (+ resize), hash table with linear probing (tombstones), hash map problems (two sum, first non-repeating char, subarray sum = k, longest consecutive run) |
-| `08_graphs` | adjacency matrix vs list, BFS + DFS (+ distances, connected components), Kruskal's MST (union-find), Prim's MST (min-heap) |
+| `06_heaps` | min-heap, max-heap, heap sort, STL priority_queue (k-th largest, merge k sorted lists), LeetCode 347 top k frequent elements |
+| `07_hashing` | hash table with chaining (+ resize), hash table with linear probing (tombstones), hash map problems (two sum, first non-repeating char, subarray sum = k, longest consecutive run), LeetCode 49 group anagrams |
+| `08_graphs` | adjacency matrix vs list, BFS + DFS (+ distances, connected components), Kruskal's MST (union-find), Prim's MST (min-heap), LeetCode 200 number of islands |
 
 ## Run a single file
 
